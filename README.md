@@ -1,5 +1,10 @@
 # stringmanip
-string manipulation functions that are not available by default
+C++ cstring manipulation functions that are not available by default
+
+### What I've Learned
+* using char**
+
+### Usage/Examples
 
 * ```cpp
   const char** cs_split(const char* input, int key, int* out_s)
