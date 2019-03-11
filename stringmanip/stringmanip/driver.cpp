@@ -10,6 +10,7 @@ int main()
 	for (int i = 0; i < size; i++)
 		std::cout << output[i] << std::endl;
 
+	delete[] output;
 	system("PAUSE");
 	return 0;
 }
